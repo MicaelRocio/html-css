@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* height = altura
+   width  = largura
+   #      = id
+   .      = class
+   :      = pseudo-class
+   ::     = pseudo-element
+   >      = filho 
+   */
+div {
+    display: inline-block;
+    background-color: #ffcd91;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+}
+
+div:hover {
+    background-color: #f8ac48;
+}

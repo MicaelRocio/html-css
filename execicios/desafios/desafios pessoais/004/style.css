@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: #588C7E;
+    text-align: center;
+
+}
+@font-face {
+    font-family: 'viking2';
+    src: url(fonts/viking2.ttf) format(truetype);
+    font-weight: lighter;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'viking';
+    src: url(fonts/viking.ttf) format(truetype);
+    font-weight: lighter;
+    font-style: normal;
+    }
+@font-face {
+        font-family: 'morris';
+        src: url(fonts/morris.ttf) format(truetype), url(fonts/morris.otf) format(opentype);
+
+    }
+
+
+    header {
+        font-family: 'viking';
+        text-align: center;
+        font-size: 2em;
+    }
+
+   
+
+    footer {
+        text-align: right;
+    }
+
+    .imglog {
+        text-align: center;
+    }
+   
+    h2 {
+        font-family: 'viking';
+        text-align: center;
+        font-size: 2em;
+    }
+
+    div {
+
+        display: inline-block;
+        background-color: #1F735B;
+        border: 1px solid #0A4031;
+        text-align: center;
+        height: 400px;
+        width: 270px;
+        box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.432);
+        border-radius: 40px;
+    }
+
+    div:hover {
+        background-color: #0d5541c2;
+        
+    }
+
+    .lista {
+        text-align: left;
+        font-family: 'morris';
+        font-size: 1em;
+    }
+
+
+
