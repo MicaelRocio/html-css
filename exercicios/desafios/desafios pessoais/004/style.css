@@ -27,12 +27,33 @@ body {
 
 
     header {
-        font-family: 'viking';
+        font-family: var(--fonte0);
         text-align: center;
+        margin: 0px;
+        padding: 10px;
+        border-radius: 10px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
         font-size: 2em;
+        background-image: linear-gradient(to bottom, var(--cor2), var(--cor0));
     }
 
-   
+    nav > a {
+        display: inline-block;
+        text-align: center;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 5px;
+        transition-duration: 0.5s;
+        text-decoration: none;
+        background-color: var(--cor1);
+        color: black;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.418);
+    }
+
+    nav > a:hover {
+        background-color: var(--cor0);
+        color: var(--cor3);
+    }
 
     footer {
         text-align: right;
@@ -43,16 +64,16 @@ body {
     }
    
     h2 {
-        font-family: 'viking';
+        font-family: var(--fonte0);
         text-align: center;
         font-size: 2em;
     }
 
-    div {
+    main > div {
 
         display: inline-block;
-        background-color: #1F735B;
-        border: 1px solid #0A4031;
+        background-color: var(--cor1);
+        border: 1px solid var(--cor0);
         text-align: center;
         height: 400px;
         width: 270px;
@@ -60,16 +81,29 @@ body {
         border-radius: 40px;
     }
 
-    div:hover {
-        background-color: #0d5541c2;
-        
+    main > div:hover {
+        background-color: var(--cor0);
+        transition: 0.25s;
+    }
+
+    div > a {
+        text-decoration: none;
+        color: black;
     }
 
     .lista {
         text-align: left;
-        font-family: 'morris';
+        font-family: var(--fonte1);
         font-size: 1em;
     }
 
+    :root {
+        --cor0: #0A4031;
+        --cor1: #1F735B;
+        --cor2: #588C7E;
+        --cor3: #9BBFB5;
+        --fonte0: 'viking';
+        --fonte1: 'morris';
+    }
 
 
