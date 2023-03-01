@@ -12,6 +12,8 @@
 
         table {
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -19,6 +21,12 @@
             font-weight: bold;
             padding: 10px;
             background-color: lightgray;
+        }
+
+        thead > tr > th { /* Para fixar o cabeçalho */
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         tbody > tr:nth-child(odd) { /* 2n-1 */
