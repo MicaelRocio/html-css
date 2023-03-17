@@ -72,3 +72,11 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
 }
+
+footer {
+    background-color: rgba(0, 0, 0, 0.74);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
